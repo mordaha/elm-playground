@@ -1,0 +1,35 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+// can add Boostrap overrides, additional Sass/CSS below...
+
+
+.search-input {
+  font-size: 1em;
+  width: 500px;
+}
+
+.found-records {
+  clear: both;
+  padding: 10px;
+  border: solid 1px #ccc;
+  background-color: #fcfcfc;
+  width: 500px;
+}
+
+.record {
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+.record:hover {
+  background-color: #99f;
+  color: #fff;
+}
+
+.selected-value { 
+  padding: 5px;
+  background-color: #efe;
+  width: 500px;
+}
