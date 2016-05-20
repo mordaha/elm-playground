@@ -1,6 +1,6 @@
 # My Playground with Elm :)
 
-# Install:
+## Install:
 
 ```
 git clone https://github.com/moarwick/elm-webpack-starter
@@ -14,13 +14,13 @@ If you haven't done so yet, install Elm globally:
 npm install -g elm
 ```
 
-# Install Elm's dependencies:
+## Install Elm's dependencies:
 
 ```
 elm package install
 ```
 
-# Serve locally:
+## Serve locally:
 
 ```
 npm start
